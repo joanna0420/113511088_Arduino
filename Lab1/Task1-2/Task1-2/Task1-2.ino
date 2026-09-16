@@ -4,7 +4,6 @@ int bluePin = 11;
 int buttonPin = 2;
 int potPin = A0;
 int greenState = 0;
-
 void setup() {
   pinMode(redPin, OUTPUT);
   pinMode(greenPin, OUTPUT);
@@ -13,13 +12,10 @@ void setup() {
   Serial.begin(9600);
   Serial.println("Green Light Brightness Controller");
 }
-
 void loop() {
   // 藍色
   int analogValue = analogRead(potPin);
-
   int blueBrightness = map(analogValue, 0, 1023, 0, 255);
-
   analogWrite(bluePin, blueBrightness);
   // 紅色
   if (digitalRead(buttonPin) == LOW) {
@@ -36,14 +32,12 @@ void loop() {
       Serial.print("Green Light Brightness: ");
       Serial.println(greenState);
     }
-  
     else if (input == '0') {
       greenState = 0;
       Serial.print("Green Light Brightness: ");
       Serial.println(greenState);
     }
   }
-
   analogWrite(greenPin, greenState);
   delay(10);
 }
