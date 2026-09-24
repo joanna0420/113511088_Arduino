@@ -22,8 +22,7 @@ void buttonISR() {
 
 void loop() {
   bool currentButtonB = digitalRead(buttonPinB);//Arduino主動去看ButtonB現在是HIGH還是LOW
-  // 偵測 HIGH → LOW，也就是按下按鈕的瞬間
-  if (lastButtonB == HIGH && currentButtonB == LOW) {
+  if (lastButtonB == HIGH && currentButtonB == LOW) {// 偵測HIGH→LOW也就是按下按鈕的瞬間
     ledStateB = !ledStateB;
     digitalWrite(ledPinB, ledStateB);
   }

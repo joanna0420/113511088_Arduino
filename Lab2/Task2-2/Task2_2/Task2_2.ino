@@ -23,5 +23,5 @@ void loop() {
   Serial.print(distance);
   Serial.print(" cm, Angle = ");
   Serial.println(angle);
-  delay(100);
+  delay(250);
 }

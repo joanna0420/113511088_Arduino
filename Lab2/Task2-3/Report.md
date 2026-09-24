@@ -34,5 +34,5 @@
 5. **Edge Detection**：透過比較 `lastButtonB` 與 `currentButtonB`，只有在 `HIGH → LOW` 的瞬間才切換 LED B，避免按住按鈕時重複觸發。
 6. **Blocking System 測試**：在 `loop()` 最後加入 `delay(2000)`，使主程式每次暫停 2 秒，此時若快速按下 Button B，Polling 可能因程式正在 delay 而無法偵測到按鍵；Button A 則可透過 External Interrupt 立即觸發 ISR，因此即使主程式處於 delay 狀態仍能控制 LED A。
 7. **實驗成果**：Button A 使用 External Interrupt 時反應較即時，即使 `loop()` 被 `delay(2000)` 阻塞仍可偵測按鈕事件；Button B 使用 Polling 時必須等程式執行到 `digitalRead()` 才能讀取按鈕，因此短暫的按鍵事件可能被漏掉。
-8. **方法比較**：Polling 是由 Arduino 主動且持續檢查輸入狀態，而 External Interrupt 則是在指定訊號事件發生時自動執行 ISR。對於需要快速反應且不能漏掉的事件，例如緊急停止、碰撞感測或編碼器訊號，External Interrupt 較適合；對於不需要即時反應、只需週期性讀取的感測器，則可使用 Polling。
+8. **方法比較**：在開發機器人系統時，通常更傾向使用外部中斷（External Interrupt）而非Polling，因為中斷能提供即時的反應速度與極高的能源效率。輪詢需要系統不斷檢查感測器的狀態，而中斷則允許微控制器執行其他任務，只有在事件真正發生時才進行處理。
 9. **操作影片**：請參閱同目錄下 `video/Task2-3.mp4` 之實際操作畫面。
