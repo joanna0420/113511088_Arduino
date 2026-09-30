@@ -1,0 +1,10 @@
+C:\GitHub_rep\113511088_Arduino\Lab3\Task3-2\ArduinoSerialControl\ArduinoSerialControl\bin\Debug\ArduinoSerialControl.exe.config
+C:\GitHub_rep\113511088_Arduino\Lab3\Task3-2\ArduinoSerialControl\ArduinoSerialControl\bin\Debug\ArduinoSerialControl.exe
+C:\GitHub_rep\113511088_Arduino\Lab3\Task3-2\ArduinoSerialControl\ArduinoSerialControl\bin\Debug\ArduinoSerialControl.pdb
+C:\GitHub_rep\113511088_Arduino\Lab3\Task3-2\ArduinoSerialControl\ArduinoSerialControl\obj\Debug\ArduinoSerialControl.csproj.AssemblyReference.cache
+C:\GitHub_rep\113511088_Arduino\Lab3\Task3-2\ArduinoSerialControl\ArduinoSerialControl\obj\Debug\ArduinoSerialControl.Form1.resources
+C:\GitHub_rep\113511088_Arduino\Lab3\Task3-2\ArduinoSerialControl\ArduinoSerialControl\obj\Debug\ArduinoSerialControl.Properties.Resources.resources
+C:\GitHub_rep\113511088_Arduino\Lab3\Task3-2\ArduinoSerialControl\ArduinoSerialControl\obj\Debug\ArduinoSerialControl.csproj.GenerateResource.cache
+C:\GitHub_rep\113511088_Arduino\Lab3\Task3-2\ArduinoSerialControl\ArduinoSerialControl\obj\Debug\ArduinoSerialControl.csproj.CoreCompileInputs.cache
+C:\GitHub_rep\113511088_Arduino\Lab3\Task3-2\ArduinoSerialControl\ArduinoSerialControl\obj\Debug\ArduinoSerialControl.exe
+C:\GitHub_rep\113511088_Arduino\Lab3\Task3-2\ArduinoSerialControl\ArduinoSerialControl\obj\Debug\ArduinoSerialControl.pdb
