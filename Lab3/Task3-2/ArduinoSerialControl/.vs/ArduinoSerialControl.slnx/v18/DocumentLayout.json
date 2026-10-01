@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\GitHub_rep\\113511088_Arduino\\Lab3\\Task3-2\\ArduinoSerialControl\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{785F6D24-5427-4F1E-BBD5-2DD419B9E39C}|ArduinoSerialControl\\ArduinoSerialControl.csproj|c:\\github_rep\\113511088_arduino\\lab3\\task3-2\\arduinoserialcontrol\\arduinoserialcontrol\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{785F6D24-5427-4F1E-BBD5-2DD419B9E39C}|ArduinoSerialControl\\ArduinoSerialControl.csproj|C:\\GitHub_rep\\113511088_Arduino\\Lab3\\Task3-2\\ArduinoSerialControl\\arduinoserialcontrol\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{785F6D24-5427-4F1E-BBD5-2DD419B9E39C}|ArduinoSerialControl\\ArduinoSerialControl.csproj|solutionrelative:arduinoserialcontrol\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{785F6D24-5427-4F1E-BBD5-2DD419B9E39C}|ArduinoSerialControl\\ArduinoSerialControl.csproj|C:\\GitHub_rep\\113511088_Arduino\\Lab3\\Task3-2\\ArduinoSerialControl\\arduinoserialcontrol\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{785F6D24-5427-4F1E-BBD5-2DD419B9E39C}|ArduinoSerialControl\\ArduinoSerialControl.csproj|c:\\github_rep\\113511088_arduino\\lab3\\task3-2\\arduinoserialcontrol\\arduinoserialcontrol\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{785F6D24-5427-4F1E-BBD5-2DD419B9E39C}|ArduinoSerialControl\\ArduinoSerialControl.csproj|solutionrelative:arduinoserialcontrol\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "ArduinoSerialControl\\Form1.cs",
               "ToolTip": "C:\\GitHub_rep\\113511088_Arduino\\Lab3\\Task3-2\\ArduinoSerialControl\\ArduinoSerialControl\\Form1.cs",
               "RelativeToolTip": "ArduinoSerialControl\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-30T07:36:12.084Z",
               "EditorCaption": ""
@@ -42,7 +42,8 @@
               "ToolTip": "C:\\GitHub_rep\\113511088_Arduino\\Lab3\\Task3-2\\ArduinoSerialControl\\ArduinoSerialControl\\Form1.cs [\u8A2D\u8A08]",
               "RelativeToolTip": "ArduinoSerialControl\\Form1.cs [\u8A2D\u8A08]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T07:33:15.378Z"
+              "WhenOpened": "2026-09-30T07:33:15.378Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
             }
           ]
         }

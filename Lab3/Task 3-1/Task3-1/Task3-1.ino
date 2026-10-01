@@ -3,7 +3,6 @@ const int buttonA = 2;
 const int ledA = 6;
 const int buttonB = 3;
 const int ledB = 7;
-
 void timerISR() {
   if (digitalRead(buttonA) == LOW) {
     digitalWrite(ledA, HIGH);
